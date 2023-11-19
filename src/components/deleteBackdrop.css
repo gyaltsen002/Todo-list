@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+.delete-backdrop {
+  height: 50%;
+  width: 70%;
+  left: 18%;
+}
+
+.backdrop__des {
+  padding: 7px;
+}
+
+.backdrop__btns {
+  width: 30%;
+  font-size: 15px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+.backdrop__btns:hover {
+  background: rgb(249, 236, 236);
+  font-size: 14.7px;
+  transition: ease-in 0.7s;
+}
+
+.backdrop__btns:active {
+  background: rgb(246, 216, 216);
+}
+
+.del--backdrop {
+  left: 0;
+  bottom: 0;
+}

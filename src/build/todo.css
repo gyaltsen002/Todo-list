@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: "Tilt Neon", sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.main--header {
+  margin-bottom: 20px;
+  /* text-decoration: none; */
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.main--form {
+  width: 500px;
+}
+
+.main--form__input {
+  width: 70%;
+  height: 25px;
+  outline: none;
+  background: rgb(237, 237, 237);
+}
+
+.main--form__btn {
+  width: 20%;
+  height: 40px;
+  margin-left: 5px;
+  font-size: 15px;
+  background-color: rgb(215, 214, 214);
+}
+
+.main--form__input,
+.main--form__btn {
+  border-radius: 7px;
+  padding: 7px;
+  border: 1px solid grey;
+}
+
+.main--form__input:focus,
+.main--form__btn:focus {
+  background-color: rgb(237, 229, 229);
+  border: 2px solid grey;
+  transition: all ease-in-out 0.2s;
+}
+
+.main--lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.main--lists__el,
+#todo_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main--lists__el:first-child {
+  flex: flex-start;
+}
+
+.main--lists__el--body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main--lists__el--des {
+  margin: 5px 7px;
+}
+
+.main--lists__els {
+  display: flex;
+  justify-content: flex-end;
+  width: 200px;
+  margin-right: 0;
+}
+
+.main--lists__el--btn_edit,
+.main--lists__el--btn_del {
+  width: 35%;
+  margin-left: 15px;
+}
+
+.main--lists__el--done {
+  text-decoration: line-through;
+  color: rgb(118, 117, 117);
+  margin: 5px 7px;
+}
+
+.main--lists_empty {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+/* Backdrop */
+.backdrop_modal {
+  position: fixed;
+  background: rgba(89, 70, 70, 0.7);
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+}
+
+.backdrop {
+  /* background: ; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Tilt Neon", sans-serif;
+  background: #ded5bacc;
+  position: fixed;
+  z-index: 3;
+  height: 20vh;
+  width: 30vw;
+  margin: 0 auto;
+  top: 50px;
+  left: 37%;
+  border-radius: 9px;
+}
