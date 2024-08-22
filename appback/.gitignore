@@ -1,0 +1,5 @@
+# Init
+__init__.py
+
+# DB
+*.sqlite3
