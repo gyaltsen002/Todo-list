@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+.edit_change--modal {
+  left: 0;
+  bottom: 0;
+}
+
+.edit--backdrop {
+  height: 200px;
+  width: 70%;
+  left: 18%;
+}
+
+.edit--backdrop_title {
+  margin-bottom: 0;
+}
+
+.edit-backdrop_elms {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-backdrop_elms > input,
+.edit-backdrop_elms > button {
+  border-radius: 7px;
+  padding: 7px;
+  border: 1px solid rgb(149, 146, 146);
+}
+
+.edit-backdrop_elms > input {
+  margin-right: 20px;
+  outline: none;
+}
+
+.edit-backdrop_elms > button {
+  padding: 12px;
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 19px;
+  padding: 5px;
+  border: 1px solid rgb(175, 173, 173);
+  border-radius: 8px;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+.edit-backdrop_elms > button:hover {
+  background: rgb(249, 236, 236);
+  font-size: 18.7px;
+  transition: ease-in 0.7s;
+}
+
+.edit-backdrop_elms > button:active {
+  background: rgb(246, 216, 216);
+}
